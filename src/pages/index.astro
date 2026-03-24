@@ -1,11 +1,92 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+const appName = "Kiokuya";
+const tagline = "記憶屋が提供するサービス";
 ---
 
-<Layout>
-	<Welcome />
-</Layout>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{appName}</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: sans-serif;
+        line-height: 1.7;
+        color: #222;
+        background: #fafafa;
+      }
+      .container {
+        width: min(960px, 92%);
+        margin: 0 auto;
+      }
+      header {
+        padding: 80px 0;
+        text-align: center;
+        background: linear-gradient(135deg, #f5f7ff, #eaf2ff);
+      }
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 16px;
+      }
+      .lead {
+        font-size: 1.2rem;
+        color: #555;
+      }
+      section {
+        padding: 48px 0;
+      }
+      .button {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 12px 20px;
+        border-radius: 10px;
+        text-decoration: none;
+        background: #2563eb;
+        color: white;
+      }
+      footer {
+        padding: 48px 0;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>{appName}</h1>
+        <p class="lead">{tagline}</p>
+        <a class="button" href="https://github.com/digital-clone/digital_clone">
+          DigitalCloneV GitHubを見る
+        </a>
+      </div>
+    </header>
+
+    <main class="container">
+      <section>
+        <h2>このアプリについて</h2>
+        <p>
+          このアプリはAIを利用してVTuberアバターをYoutube配信で自動会話させるアプリです
+        </p>
+      </section>
+
+      <section>
+        <h2>主な機能</h2>
+        <ul>
+          <li>機能1: ○○をすばやく実行</li>
+          <li>機能2: △△を見やすく整理</li>
+          <li>機能3: □□の設定を簡単化</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>対応環境</h2>
+        <p>Windows / ほか必要に応じて記載</p>
+      </section>
+    </main>
+
+    <footer class="container">
+      <p>© 2026 kiokuya</p>
+    </footer>
+  </body>
+</html>
