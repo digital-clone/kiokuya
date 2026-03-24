@@ -5,7 +5,6 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
   site: 'https://digital-clone.github.io',
   base: '/kiokuya',
-  outDir: "./docs",
   integrations: [
     starlight({
         title: "DigitalCloneV",
