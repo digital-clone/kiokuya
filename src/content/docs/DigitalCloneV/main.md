@@ -1,7 +1,7 @@
 ---
 title: きおく屋の提供するサービス
 description: きおく屋の提供するサービス
-slug: /DigitalCloneV/main/
+slug: DigitalCloneV/main
 ---
 
 ## ツールの導入
