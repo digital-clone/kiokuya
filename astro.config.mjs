@@ -18,7 +18,6 @@ export default defineConfig({
                 autogenerate: {directory: "DigitalCloneV/install"},
             },
         ],
-        favicon: "/favicon.ico",
     }
     )],
 });

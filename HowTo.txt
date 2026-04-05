@@ -1,0 +1,7 @@
+ローカル起動
+npm run dev
+
+gitプッシュ
+git add .
+git commit -m "commit text"
+git push
