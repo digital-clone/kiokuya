@@ -11,7 +11,7 @@ export default defineConfig({
         sidebar: [
             {
                 label: "はじめに",
-                link: "/DigitalCloneV/main/",
+                autogenerate: {directory: "DigitalCloneV/main"},
             },
             {
                 label: "導入方法",

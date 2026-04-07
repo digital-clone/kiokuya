@@ -6,6 +6,7 @@ slug: DigitalCloneV/install/install_ffmpeg
 
 ## はじめに
 
+DigitalCloneVではStyleBertVits2を利用しており、StyleBertVits2を使うにはFFmpegが必要です。<br>
 FFmpegを使うにはダウンロード・解凍・PATHを通す必要があります。<br>
 以下にその手順を説明します。<br>
 
