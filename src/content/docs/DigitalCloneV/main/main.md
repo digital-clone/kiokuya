@@ -41,6 +41,7 @@ OpenAIであなたの性格を学習したAIモデルを作成します。<br>
 
 ### OpenAIAPIKeyの取得
 OpenAIの機能を使う為にAPIキーを取得します。<br>
+[OpenAIAPIKeyの取得](../install/install_openai_apikey/)<br>
 
 ### YoutubeAPIKeyの取得
 Youtubeの機能を利用する為にAPIキーを取得します。<br>
